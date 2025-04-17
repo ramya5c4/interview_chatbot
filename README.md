@@ -9,7 +9,7 @@
   </div>
   <div>
     <h3>Installation Instructions:</h3>
-    <b>1.clone repo</b>
+    <span><b>1.clone repo:</b></span></br>
        <span>git clone https://github.com/ramya5c4/interview_chatbot.git</span></br>
        <span>cd interview_chatbot</span>
   </div>
