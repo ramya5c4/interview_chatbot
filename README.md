@@ -9,7 +9,8 @@
   </div>
   <div>
     <h3>Installation Instructions:</h3>
-    <span><b>clone repo:</b></span></br>
+    <ul>
+    <li><b>clone repo:</b></li></br>
        <div>git clone https://github.com/ramya5c4/interview_chatbot.git</br>
              cd interview_chatbot</div>
   </div>
