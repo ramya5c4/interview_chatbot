@@ -10,7 +10,7 @@
   <div>
     <h3>Installation Instructions:</h3>
     <span><b>clone repo:</b></span></br>
-       &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<div>git clone https://github.com/ramya5c4/interview_chatbot.git</br>
+       <div>git clone https://github.com/ramya5c4/interview_chatbot.git</br>
              cd interview_chatbot</div>
   </div>
 </html>
