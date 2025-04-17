@@ -1,11 +1,11 @@
 import streamlit as st
 from data_stream import get_data_llm,get_validate_name,get_validate_contact_info
 
-
+#Display welcome message
 welcome_response='''<h3 style="padding:50px 0px 20px 50px;"> welcome to Talent scout.</h3>'''
 st.write(welcome_response,unsafe_allow_html=True)
 
-
+#initializing the sessions based on content
 if "message" not in st.session_state:
     st.session_state.message= [{"role": "assistant", "response": "Kindly provide your full name"}]
 if "prompt_index" not in st.session_state:
@@ -23,8 +23,9 @@ for message in st.session_state.message:
 
 
 if not st.session_state.done:
-
+#Get the user input
   if prompt:=st.chat_input("say something"):
+#show the user input and added to the session
     with st.chat_message("user"):
         st.html(prompt)
         st.session_state.message.append({"role": "user", "response": prompt})
@@ -55,6 +56,7 @@ if not st.session_state.done:
           st.session_state['prompt_index'] += 1
 
     elif st.session_state['prompt_index']== 3:
+        #get the interview questions help of the below function
        questions,len_questions = get_data_llm(st.session_state["question"])
 
        if st.session_state["question_index"] < len_questions:
@@ -64,7 +66,7 @@ if not st.session_state.done:
        else:
          question = "Thank you for the conversation! We'll get back to you shortly."
          st.session_state.done = True
-
+#show the assistant message
     with st.chat_message("assistant"):
         st.html(question)
         st.session_state.message.append({"role": "assistant", "response": question})
