@@ -14,7 +14,7 @@
        git clone https://github.com/ramya5c4/interview_chatbot.git</br>
              cd interview_chatbot
     <li><b>Install dependencies:</b></li>
-        pip install streamlit
+        pip install streamlit</br>
         pip install langchain_groq
     </ul>  
   </div>
