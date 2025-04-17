@@ -27,7 +27,8 @@
                  
   </div>
   <div>
-      if prompt:=st.chat_input("say something"):
+    
+    if prompt:=st.chat_input("say something"):
 
     with st.chat_message("user"):
         st.html(prompt)
