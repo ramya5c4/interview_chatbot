@@ -10,10 +10,10 @@
   <div>
     <h3>Installation Instructions:</h3>
     <ul>
-    <li><b>clone repo:</b></li></br>
+    <li><b>clone repo:</b></li>
        git clone https://github.com/ramya5c4/interview_chatbot.git</br>
              cd interview_chatbot
-    <li><b>Install dependencies:</b></li></br>
+    <li><b>Install dependencies:</b></li>
         pip install streamlit
     </ul>  
   </div>
