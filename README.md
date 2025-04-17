@@ -10,7 +10,7 @@
   <div>
     <h3>Installation Instructions:</h3>
     <ul>
-    <li><b>clone repo:</b></li>
+    <li><b>clone repo:(Github repository)</b></li>
        git clone https://github.com/ramya5c4/interview_chatbot.git</br>
              cd interview_chatbot
     <li><b>Install dependencies:</b></li>
@@ -20,5 +20,10 @@
   </div>
   <div>
     <h3>Prompt Design:</h3>
+         <p> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspThe chatbot uses dynamic prompt engineering to simulate tailored interview experiences. It begins by collecting essential candidate details, then generates interview questions based on their tech background and experience level</p>
+    <ul>
+   <li>The chatbot gathers user information and creates targeted interview questions tailored to the provided tech stack and experience level.</li>
+    <li>The user provides a response to the given prompt.</li>
+                 
   </div>
 </html>
