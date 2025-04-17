@@ -69,7 +69,7 @@
        else:
          question = "Thank you for the conversation! We'll get back to you shortly."
          st.session_state.done = True
-#show the assistant message
+
     with st.chat_message("assistant"):
         st.html(question)
         st.session_state.message.append({"role": "assistant", "response": question})
