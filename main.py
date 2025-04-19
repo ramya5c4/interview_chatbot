@@ -52,7 +52,7 @@ if not st.session_state.done:
     elif st.session_state['prompt_index'] == 2:
 
           st.session_state["question"] = prompt
-          question = f"Thank you for giving the details!Let's begin the interview(Type: Yes or No)."
+          question = f"Thank you for giving the details!Let's begin the interview(Type: Okay to continue)."
           st.session_state['prompt_index'] += 1
 
     elif st.session_state['prompt_index']== 3:
